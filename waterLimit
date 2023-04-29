@@ -1,0 +1,22 @@
+package java_class.Assigments;
+
+public class DrintWater {
+	
+	public static void main(String[] args) {
+		
+		int water=2; //in Liter
+		
+		if (water == 5) {
+			
+			System.out.println("Your Body will Healthy");
+		}else if (water >5) {
+			System.out.println("Don't Drink more than 5 liter water it drecrese your Body minerals");
+		
+
+		}
+		else {
+			System.out.println("drink water");
+		}
+	}
+
+}
