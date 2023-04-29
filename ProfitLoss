@@ -1,0 +1,28 @@
+package java_class.Assigments;
+
+public class ProfitLoss {
+	public static void main(String[]args) {
+		
+		int sellingPrice = 300;
+		int costPrice = 800;
+		int profit;
+		int loss;
+		
+		if (sellingPrice==costPrice) {
+			System.out.print("No Profit Nor LOss");
+			
+		}
+		else if (sellingPrice> costPrice)
+		{
+			profit = sellingPrice - costPrice;
+			System.out.println("profit of"+profit );
+		}
+		else {
+			loss= costPrice-sellingPrice;
+			System.out.println("Loss of "+loss);
+			
+		}
+
+	}
+
+}
