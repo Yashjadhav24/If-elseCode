@@ -1,0 +1,20 @@
+package java_class.Assigments;
+
+public class Code2 {
+	public static void main(String[]args) {
+		
+		int var=16;
+		
+		if (var>10) {
+			
+			System.out.println(var+" is a greater than 10");
+			
+		}
+    else {
+			System.out.println(var+" is a less than 10");
+		}
+		
+		
+	}
+
+}
