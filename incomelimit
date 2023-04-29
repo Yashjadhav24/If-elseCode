@@ -1,0 +1,18 @@
+package java_class.Assigments;
+
+public class incomelimit {
+	
+	public static void main(String[] args) {
+		
+		int income= 8000;
+		
+		if (income<=8000) {
+			
+			System.out.println("You are Eligible for Scholarship");
+		}
+		else {
+			System.out.println("Your not Eligible for Scholarship");
+		}
+	}
+
+}
