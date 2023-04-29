@@ -1,0 +1,17 @@
+package java_class.Assigments;
+
+public class positiveNegative {
+
+	public static void main(String[] args) {
+		
+		int num = 50;
+		if (num<0) {
+			System.out.println(num+" is a negative no");
+			
+		}else {
+			System.out.println(num+" is a positive no");
+		}
+
+	}
+
+}
