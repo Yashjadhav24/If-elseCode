@@ -1,0 +1,23 @@
+package java_class.Assigments;
+
+public class maximum {
+	
+		
+		public static void main(String[]args) {
+			int a= 2;
+			int b =8;
+			int c =15;
+			
+			if (a>b) {
+				
+				System.out.println(a+" is maximum between 2,3 and 4 ");
+			}
+			else if(b>c) {
+				System.out.println(b+" is maximum between 2,3 and 4 " );
+			}
+			else if (c>a) {
+				System.out.println(c+" is maximum between 2,3 and 4 " );
+			}
+		}
+	
+}
